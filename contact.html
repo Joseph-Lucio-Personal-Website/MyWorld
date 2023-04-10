@@ -19,21 +19,22 @@
         </header>
     <main>
             <h3>Please Leave a Message for more information</h3>
-        <form action="submitSuccess.html">
+        <form id="form">
             <div class="form">
                 <div class="formImput">
                     <label for="name">Name</label>
-                    <input type="text">
+                    <input type="text" required>
                 </div>
                 <div class="formImput">
                     <label for="email">Email</label>
-                    <input type="email">
+                    <input type="email" required>
                 </div>
                 <div class="formImput-2">
                     <label for="message">Message</label>
-                    <input type="message">
+                    <textarea name="message" rows="5" cols="60" maxlength="2000"></textarea><br><br>
                 </div>
-                <input type="submit" value="Submit!" class="submitButton">
+                <input type="submit" value="Submit" class="submitButton">
+                <script src="javascript.js"></script>
             </div>
         </form>
         <footer>
