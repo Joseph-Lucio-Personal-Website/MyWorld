@@ -1,11 +1,11 @@
 html {
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
-    background: #5980bb;
+    background: #111113;
   }
   
   body {
-    background: #345c97;
+    background: #111113;
     max-width: 960px;
     color: #232323;
     margin: 0 auto;
@@ -82,5 +82,5 @@ html {
   }
   
   header, footer {
-    background: #f35e5e;
+    background: #9e0909;
   }
