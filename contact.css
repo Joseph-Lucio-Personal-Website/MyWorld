@@ -1,5 +1,8 @@
-h3 {
+section {
+    border-top: 6rem;
+    margin-top: 4rem;
     text-align: center;
+    align-self: center;
 }
 
 .form {
@@ -30,8 +33,17 @@ h3 {
 }
 
 .submitButton {
-    margin-top: 1rem;
-    padding: .5rem 3rem;
+    width: 10em;
+    height: 5ex;
+    background-color: gold;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
     align-self: center;
-    background-color: skyblue;
+}
+
+.submitButton:hover {
+    background-color:lightslategray;
 }
